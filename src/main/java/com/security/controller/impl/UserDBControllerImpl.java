@@ -1,5 +1,6 @@
-package com.h2.h2api.controller.impl;
+package com.security.controller.impl;
 
+import com.security.service.impl.UserServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,9 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.h2.h2api.controller.UserDBController;
-import com.h2.h2api.entity.User;
-import com.h2.h2api.service.impl.UserServiceImpl;
+import com.security.controller.UserDBController;
+import com.security.entity.User;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,10 +1,10 @@
-package com.h2.h2api;
+package com.security;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class H2ApiApplicationTests {
+class SecurityApplicationTests {
 
 	@Test
 	void contextLoads() {

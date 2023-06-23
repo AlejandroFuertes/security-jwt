@@ -1,4 +1,4 @@
-package com.h2.h2api.entity;
+package com.security.entity;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package com.h2.h2api.service;
+package com.security.service;
 
-import com.h2.h2api.entity.User;
+import com.security.entity.User;
 
 public interface UserService {
 

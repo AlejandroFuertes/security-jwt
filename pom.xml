@@ -9,14 +9,20 @@
 		<version>2.6.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.h2</groupId>
-	<artifactId>h2-api</artifactId>
+	<groupId>com.security</groupId>
+	<artifactId>jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>h2-api</name>
+	<name>security-jwt</name>
 	<description>Demo project for Spring Boot</description>
+
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<postgres.version>42.2.16</postgres.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

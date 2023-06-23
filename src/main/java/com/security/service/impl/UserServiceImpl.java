@@ -1,12 +1,12 @@
-package com.h2.h2api.service.impl;
+package com.security.service.impl;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.h2.h2api.entity.User;
-import com.h2.h2api.repository.UserRepository;
-import com.h2.h2api.service.UserService;
+import com.security.entity.User;
+import com.security.repository.UserRepository;
+import com.security.service.UserService;
 
 import lombok.RequiredArgsConstructor;
 
